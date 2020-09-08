@@ -8,10 +8,10 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined'
-import { StateProvider, useStateValue } from './StateProvider';
+import { useStateValue } from './StateProvider';
 
 function Sidebar() {
-    const [{ user }, dispatch] = useStateValue();
+    const [{ user }] = useStateValue();
 
     return (
         <div className="sidebar">
@@ -25,7 +25,7 @@ function Sidebar() {
             <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
             <SidebarRow Icon={ExpandMoreOutlined} title="View More" />
         </div>
-    )
+    );
 }
 
-export default Sidebar
+export default Sidebar;

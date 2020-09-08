@@ -36,7 +36,7 @@ function Login() {
             <Button type="submit" onClick={signIn}>Sign In</Button>
 
         </div>
-    )
+    );
 }
 
-export default Login
+export default Login;

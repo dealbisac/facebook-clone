@@ -40,7 +40,7 @@ function StoryReel() {
 
 
         </div>
-    )
+    );
 }
 
-export default StoryReel
+export default StoryReel;
