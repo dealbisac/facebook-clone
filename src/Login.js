@@ -6,6 +6,7 @@ import { actionTypes } from './reducer';
 import { useStateValue } from './StateProvider';
 
 function Login() {
+    // eslint-disable-next-line
     const [state, dispatch] = useStateValue();
 
     const signIn = () => {
